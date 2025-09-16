@@ -1,3 +1,10 @@
+/*    TASK1
+Write a C++ program that takes the following information as input from the user:
+1.	Name 
+2.	Age.
+3.	Height (height in feet).
+4.	A short description about themselves (a multi-line string).
+*/
 #include <iostream>
 #include <string>
 
@@ -9,7 +16,7 @@ int main() {
 	float height;
 	string desription;
              // Taking Input from the End-User
-	cout << "Enter your name :  " << endl;
+	cout << "\nEnter your name :  " << endl;
 	getline(cin, name);
 	cout << "Enter your age :  " << endl;
 	cin >> age;

@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <string>
 
 int main() {
     
@@ -8,13 +9,13 @@ int main() {
     float cgpa;
 
     
-    cout << "Enter Name: ";
-    cin >> name;
-    cout << "Enter Age: ";
+    cout << "\nEnter Name: ";
+    getline(cin, name);
+    cout << "\nEnter Age: ";
     cin >> age;
-    cout << "Enter Grade: ";
+    cout << "\nEnter Grade: ";
     cin >> grade;
-    cout << "Enter CGPA: ";
+    cout << "\nEnter CGPA: ";
     cin >> cgpa;
 
     

@@ -6,11 +6,11 @@ int main() {
     float length, width, height, volume;
 
 
-    cout << "Enter Length: ";
+    cout << "\nEnter Length: ";
     cin >> length;
-    cout << "Enter Width: ";
+    cout << "Enter Width: "<<endl;
     cin >> width;
-    cout << "Enter Height: ";
+    cout << "Enter Height: "<<endl;
     cin >> height;
 
 

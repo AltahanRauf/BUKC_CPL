@@ -1,8 +1,18 @@
 /* 
- Task 5: Excel Laboratories Receipt Generator
- - Input: service name, quantity, fee per unit
- - Calculate: total, subtotal, tax (5%), grand total
- - Output: Receipt in simple format
+ Excel Laboratories is implementing a new system for generating bills at its lab. As a software developer, 
+ you have been assigned the task of creating a program that will help generate detailed receipts for the patients. 
+ The Lab provides various medical services, and the billing system needs to be able to handle different types of 
+ services with appropriate fees. 
+
+The program should prompt the user to enter the following information for each medical service provided at the clinic:
+
+Service description (e.g., MRI,CT scan, blood test, X-ray)
+Quantity (for services like blood tests or X-rays)
+Service fee per unit
+
+Calculate the total cost for each medical service (quantity * service fee per unit). Also Apply 5% tax on each bill. 
+Print Receipt which display all the information.
+
 */
 
 #include <iostream>
@@ -18,13 +28,13 @@ int main() {
     float grandTotal; // total + tax
 
     // Input
-    cout << "Enter service description: ";
+    cout << "\nEnter service description: ";
     getline(cin, service);
 
-    cout << "Enter quantity: ";
+    cout << "\nEnter quantity: ";
     cin >> qty;
 
-    cout << "Enter fee per unit: ";
+    cout << "\nEnter fee per unit: ";
     cin >> fee;
 
     // Calculations
@@ -33,7 +43,7 @@ int main() {
     grandTotal = total + tax;
 
     // Output - Receipt
-    cout << "---------------------------------------------\n";
+    cout << "\n---------------------------------------------\n";
     cout << "Service        | Quantity | Fee   | Total\n";
     cout << service << " | " << qty << "        | " << fee << "   | " << total << "\n";
     cout << "---------------------------------------------\n";

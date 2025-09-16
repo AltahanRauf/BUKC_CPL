@@ -6,11 +6,11 @@ int main() {
     float grade1, grade2, grade3, avg;
 
 
-    cout << "Enter Grade 1: ";
+    cout << "\nEnter Grade 1: ";
     cin >> grade1;
-    cout << "Enter Grade 2: ";
+    cout << "\nEnter Grade 2: ";
     cin >> grade2;
-    cout << "Enter Grade 3: ";
+    cout << "\nEnter Grade 3: ";
     cin >> grade3;
 
     

@@ -1,8 +1,7 @@
 /*
- Task 6: Clock Time Converter
- - Input: total seconds
- - Output: hours, minutes, seconds
- - Hint: use division (/) and modulus (%)
+ Write a program to convert a given time in seconds into hours, minutes, and remaining seconds.
+Hint: Use the modulus operator to perform the necessary calculations.
+
 */
 
 #include <iostream>
@@ -13,7 +12,7 @@ int main() {
     int hours, minutes, seconds, remaining;
 
     // Input
-    cout << "Welcome to the Clock Time Converter! 🕒" << endl;
+    cout << "\nWelcome to the Clock Time Converter! 🕒" << endl;
     cout << "Enter the time duration in seconds: ";
     cin >> totalSeconds;
 
